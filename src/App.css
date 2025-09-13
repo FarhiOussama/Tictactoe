@@ -1,4 +1,4 @@
-.scoreStyle {
+/* .scoreStyle {
   width: 90%;
   padding: 15px;
   background-color: beige;
@@ -25,4 +25,61 @@
   background-color: lightsteelblue;
   cursor: pointer;
   color: red;
+}
+
+.divRestart {
+  width: 90%;
+  margin: 10px auto;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.btnRestart {
+  width: 20%;
+  border: none;
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  font-size: 28px;
+} */
+
+.pokemonGaleryStyle {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 10px;
+  background-color: rgb(250, 247, 243);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cardStyle {
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: beige;
+  padding: 20px;
+}
+
+.title {
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.listBtn {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btnUrl {
+  width: 20%;
+  border: none;
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
 }
