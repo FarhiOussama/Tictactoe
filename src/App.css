@@ -1,0 +1,28 @@
+.scoreStyle {
+  width: 90%;
+  padding: 15px;
+  background-color: beige;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 2rem;
+}
+.game-board {
+  width: 90%;
+  height: 70vh;
+  margin: 0 auto;
+}
+
+.rowStyle {
+  display: flex;
+  height: 33.33%;
+}
+
+.square {
+  display: block;
+  width: 33.33%;
+  height: 100%;
+  font-size: 3rem;
+  background-color: lightsteelblue;
+  cursor: pointer;
+  color: red;
+}
